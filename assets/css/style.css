@@ -1,0 +1,35 @@
+body {
+    color: #050568ea !important;
+}
+
+.bg-img {
+    background: linear-gradient(45deg, #006effc5, #006effc5), url(../images/undraw_secure_login_pdn4.png);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.bg-text {
+    width: 80% !important;
+}
+
+.bg-text h3 {
+    font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+.form {
+    width: 80% !important;
+    height: 800px;
+}
+
+@media screen and (max-width: 790px) {
+    .form {
+        margin-top: 120px !important;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .form {
+        margin-top: 150px !important;
+    }
+}

@@ -4,13 +4,16 @@ body {
 
 .bg-img {
     background: linear-gradient(45deg, #006effc5, #006effc5), url(../images/undraw_secure_login_pdn4.png);
-    background-position: center;
-    background-size: cover;
+    background-position: top;
+    background-size: 49.5%;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
     height: 800px;
 }
 
 .bg-text {
-    width: 80% !important;
+    position: fixed;
+    width: 30% !important;
 }
 
 .bg-text h3 {

@@ -8,7 +8,7 @@ body {
     background-size: 49.5%;
     background-repeat: repeat-x;
     background-attachment: fixed;
-    height: 800px;
+    min-height: 800px;
 }
 
 .bg-text {
@@ -22,17 +22,34 @@ body {
 
 .form {
     width: 80% !important;
-    height: 800px;
+    min-height: 800px;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 980px) {
+    .bg-img {
+        background-size: cover;
+        background-position: center;
+        min-height: 600px;
+    }
+
+    .bg-text h3 {
+        padding: 0px !important;
+    }
+
+    .bg-text {
+        position: static;
+        width: 90% !important;
+    }
+
     .form {
-        margin-top: 120px !important;
+        min-height: 1000px;
     }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 436px) {
     .form {
-        margin-top: 150px !important;
+        width: 90% !important;
+        min-height: 1000px;
+        padding-top: 20px !important;
     }
 }
